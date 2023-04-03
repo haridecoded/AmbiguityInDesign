@@ -97,6 +97,9 @@ export default function Main({ boards }) {
         <button onClick={getItems} class="button button-primary">
           Summarize Notes
         </button>
+        <button onClick={clickHandler} class="button button-primary">
+          Create Card
+        </button>
       </div>
     </div>
   );
